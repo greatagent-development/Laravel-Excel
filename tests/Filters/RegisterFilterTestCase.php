@@ -4,7 +4,7 @@ use Mockery as m;
 
 class RegisterFilterTestCase extends TestCase {
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->excel = app('excel');

@@ -5,7 +5,7 @@ class CustomValuBinderTest extends TestCase {
     /**
      * Setup
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -28,7 +28,7 @@ class CustomValuBinderTest extends TestCase {
     /**
      * Tear down
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         // Necessary to reset the value binder back to default so that future test classes are unaffected.
         $this->reader->resetValueBinder();
