@@ -17,9 +17,15 @@
       "email": "patrick@maatwebsite.nl"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/greatagent-development/PHPExcel"
+    }
+  ],
   "require": {
     "php": "^7.0|^8.0",
-    "phpoffice/phpexcel": "^1.8.2",
+    "phpoffice/phpexcel": "dev-php74",
     "illuminate/support": "^8.0",
     "jeremeamia/superclosure": "^2.3",
     "tijsverkoyen/css-to-inline-styles": "~2.0",
