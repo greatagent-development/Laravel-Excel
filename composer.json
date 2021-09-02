@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/greatagentinc/phpexcel"
+      "url": "https://github.com/greatagent-development/PHPExcel"
     }
   ],
   "require": {
