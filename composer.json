@@ -24,9 +24,9 @@
     }
   ],
   "require": {
-    "php": "^7.0|^8.0",
-    "phpoffice/phpexcel": "dev-php-update",
-    "illuminate/support": "^8.0",
+    "php": "^8.0",
+    "phpoffice/phpexcel": "dev-php81",
+    "illuminate/support": "^9.0",
     "jeremeamia/superclosure": "^2.3",
     "tijsverkoyen/css-to-inline-styles": "~2.0",
     "laravel/helpers": "^1.4"
@@ -35,13 +35,13 @@
     "phpseclib/phpseclib": "~1.0",
     "phpunit/phpunit": "^9.0",
     "mockery/mockery": "^1.4",
-    "orchestra/testbench": "v6.19.0"
+    "orchestra/testbench": "^7.6"
   },
   "suggest": {
-    "illuminate/http": "^8.0",
-    "illuminate/routing": "^8.0",
-    "illuminate/view": "^8.0",
-    "illuminate/queue": "^8.0"
+    "illuminate/http": "^9.0",
+    "illuminate/routing": "^9.0",
+    "illuminate/view": "^9.0",
+    "illuminate/queue": "^9.0"
   },
   "autoload": {
     "classmap": [
